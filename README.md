@@ -1,2 +1,0 @@
-# Cards
-Proyecto de Móviles

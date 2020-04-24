@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="LinearMargin">5dp</dimen>
-    <dimen name="textMargin">16dp</dimen>
-    <dimen name="textViewTextSize">16sp</dimen>
-    <dimen name="paddingRelLayout">3dp</dimen>
-    <dimen name="textViewImportantSize">16sp</dimen>
-    <dimen name="textViewLittleSize">4dp</dimen>
-</resources>
