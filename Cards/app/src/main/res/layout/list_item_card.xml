@@ -1,0 +1,72 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/mtrl_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_card_spacing">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/paddingRelLayout"
+        android:paddingTop="@dimen/paddingRelLayout"
+        android:paddingRight="@dimen/paddingRelLayout"
+        android:paddingBottom="@dimen/paddingRelLayout">
+
+        <TextView
+            android:id="@+id/list_item_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/textViewImportantSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/list_item_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_item_question"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/textViewImportantSize" />
+
+        <TextView
+            android:id="@+id/list_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/details_layout"
+            android:layout_below="@id/list_item_answer">
+            <TextView
+                android:id="@+id/list_item_easiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textViewLittleSize"/>
+
+            <TextView
+                android:id="@+id/list_item_repetition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textViewLittleSize"/>
+
+            <TextView
+                android:id="@+id/list_item_interval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textViewLittleSize"/>
+            <TextView
+                android:id="@+id/list_item_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/textViewLittleSize"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

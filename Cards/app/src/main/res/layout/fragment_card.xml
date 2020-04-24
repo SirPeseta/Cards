@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/uuid_label_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/textMargin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="ID DE LA TARJETA"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/date_text_view"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/textMargin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Tue Nov 7 15:47 EST 2019"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_below="@id/uuid_label_text_view"/>
+
+    <TextView
+        android:id="@+id/card_question_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_question_label"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/textViewTextSize"
+        android:textStyle="bold"
+        android:layout_below="@id/date_text_view"/>
+
+    <EditText
+        android:id="@+id/question_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_question_hint"
+        android:inputType="text"
+        android:layout_below="@id/card_question_label"/>
+
+    <TextView
+        android:id="@+id/card_answer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/card_answer_label"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/textViewTextSize"
+        android:textStyle="bold"
+        android:layout_below="@id/question_edit_text"/>
+
+    <EditText
+        android:id="@+id/answer_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_answer_hint"
+        android:inputType="text"
+        android:layout_below="@id/card_answer_label"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/save_button"
+        android:text="@string/save_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/answer_edit_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/delete_button"
+        android:text="@string/delete_button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/save_button"
+        android:backgroundTint="@android:color/holo_red_light"/>
+
+</RelativeLayout>
+</ScrollView>

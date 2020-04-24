@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Cards</string>
+    <string name="card_question_label">PREGUNTA</string>
+    <string name="card_question_hint">Introduce el texto de la pregunta</string>
+    <string name="card_answer_label">RESPUESTA</string>
+    <string name="card_answer_hint">Introduce el texto de la respuesta</string>
+    <string name="question_text">Tree</string>
+    <string name="answer_button_text">Ver respuesta</string>
+
+    <string name="difficult_button_title">Difícil</string>
+    <string name="doubt_button_title">Dudo</string>
+    <string name="easy_button_title">Fácil</string>
+
+    <string name="study_button">ESTUDIAR TARJETAS</string>
+    <string name="end_study_button">TERMINAR DE ESTUDIAR</string>
+    <string name="save_button">GUARDAR</string>
+    <string name="no_study">No hay mas cartas hoy</string>
+    <string name="not_available">No disponible</string>
+    <string name="day_text">Día</string>
+    <string name="choose_deck">ELEGIR MAZO</string>
+    <string name="delete_button">ELIMINAR</string>
+    <string name="add_card_button">AÑADIR TARJETA</string>
+    <string name="back_button">ATRÁS</string>
+    <string name="details_button">detalles</string>
+
+    <string name="easiness_text">eas</string>
+    <string name="repetition_text">rep</string>
+    <string name="interval_text">int</string>
+    <string name="nextDate_text">next</string>
+    <string name="decks">Mazos</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="messages_header">Mensajes</string>
+    <string name="sync_header">Sincronización</string>
+    <string name="signature_title">Tu firma</string>
+    <string name="attachment_summary_off">Descarga los elementos adjuntos sólo cuando sea marcado manualmente</string>
+    <string name="attachment_summary_on">Descarga automáticamente los adjuntos de los emails recibidos</string>
+    <string name="attachment_title">Descarga los adjuntos</string>
+    <string name="sync_title">Sincroniza el email periódicamente</string>
+    <string name="reply_title">Respuesta por defecto</string>
+    <string name="board_title">Activar la pizarra</string>
+    <string name="max_cards_title">Número máximo de tarjetas</string>
+    <string name="settings">Ajustes</string>
+</resources>
